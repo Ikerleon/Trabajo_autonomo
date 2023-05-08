@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Imagen/transparente.png" alt="Logo">
+            <div class="letras">
+                <h1>ULEAM</h1>
+                <h2>Universidad Laica Eloy Alfaro de Manabi</h2>
+            </div>
+        </div>
+    </header>
+    <div class="regresar">
+        <p><a href="Inicio.html">Regresar</a></p>
+    </div>
+    <table>
+        <caption>Gestion de base de datos "A"</caption>
+        <tr>
+            <th>N°</th>
+            <th>Cedula</th>
+            <th>Nombres de estudiante</th>
+            <th>Asistencia</th>
+            <th>Inasistencia</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1234523456</td>
+            <td>JAMILETH ESTELA ANCHUNDIA ANCHUNDIA</td>
+            <td class="chequeo"><input type="checkbox"></td>
+            <td class="chequeo"><input type="checkbox"></td>
+            <td class="boton"><button type="button" id="justificar">Justificar</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>1234523456</td>
+            <td>FRANKLIN JOSTIN BAILON PALMA</td>
+            <td class="chequeo"><input type="checkbox"></td>
+            <td class="chequeo"><input type="checkbox"></td>
+            <td class="boton"><button type="button" id="justificar">Justificar</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>1234523456</td>
+            <td>MARCOS ENRIQUE BARCIA FALCONI</td>
+            <td class="chequeo"><input type="checkbox"></td>
+            <td class="chequeo"><input type="checkbox"></td>
+            <td class="boton"><button type="button" id="justificar">Justificar</button></td>
+        </tr>
+    </table>
+    <button type="button" class="agregar" id="abrirModal">Agregar</button>
+    <button type="button" class="bajar" id="cerrarmodal">Dar de baja</button>
+    <div id="modal" class="modal-contenedor">
+        <div class="modal-contenido">
+            <form action="" id="form">
+                <h1 class="titulo"> Agregar</h1>
+                <div class="datos">
+                    <label for="nombre">Nombre de Estudiante</label>
+                    <input type="text" id="nombre">
+                </div>
+                <div class="datos">
+                    <label for="cedula">Ingresar Cedula de Estudiante</label>
+                    <input type="number" id="cedula">
+                </div>
+                <div class="botones">
+                    <button id="close" type="button">Cerrrar</button>
+                    <button id="enviar" type="button">Agregar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="modal1" class="modal-contenedor">
+        <div class="modal-contenido">
+            <form action="" id="form">
+                <h1 class="titulo">Retirar</h1>
+                <div class="datos">
+                    <label for="nombre">Nombre de Estudiante</label>
+                    <input type="text" id="nombre">
+                </div>
+                <div class="datos">
+                    <label for="cedula">Ingresar Cedula de Estudiante</label>
+                    <input type="number" id="cedula">
+                </div>
+                <div class="botones">
+                    <button id="close1" type="button">Cerrrar</button>
+                    <button id="dar_baja" type="button">Dar de baja</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="modal2" class="modal-contenedor">
+        <div class="modal-contenido">
+            <form action="" id="form">
+                <h1 class="titulo">Justificar</h1>
+                <div class="datos">
+                    <label for="nombre">Justificacion</label>
+                    <input type="text" id="nombre">
+                </div>
+                <div class="botones">
+                    <button id="close2" type="button">Cerrrar</button>
+                    <button id="justificar_" type="button">Justificar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

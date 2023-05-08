@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    background-color: #c3c3c38d;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background: #299d05;
+}
+.logo{
+    display: flex;
+    margin-left: 70px;
+}
+.letras h1,h2{
+    color: #ffffff;
+    margin: 0;
+}
+.logo img{
+    height: 70px;
+}
+.bienvenido{
+    text-align: center;
+}
+.informacion{
+    margin: auto;
+    max-width: 70%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.fa-solid{
+    color: #299d05;
+}
+.icono{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.materias{
+    display: flex;
+    background-color: #ffffff;
+    margin-bottom: 1px;
+}
+.datos h4, p{
+    margin-top: 0%;
+    margin-bottom: 1px;
+    font-size: 18px;
+}
+.datos{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.nombre{
+    color: #000000;
+}
+.regresar{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.regresar a{
+    color: #000000;
+}
+table{
+    background-color: #ffffffc8;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-collapse: collapse;
+}
+caption{
+    background-color: #ffffffc8;
+    font-size: 20px;
+    padding: 2%;
+    font-weight: bolder;
+}
+th, td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: 2px solid #747070a5;
+}
+th{
+    text-align: left;
+}
+.chequeo{
+    text-align: center;
+}
+.boton{
+    border: none;
+}
+.boton button{
+    border-radius: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+.boton button:hover{
+    background: wheat;
+    transition: 0.5s;
+}
+.agregar{
+    margin-left: 8%;
+    border-radius: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.bajar{
+    margin-left: 2%;
+    border-radius: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.agregar:hover, .bajar:hover{
+    background: wheat;
+    transition: 0.5s;
+}

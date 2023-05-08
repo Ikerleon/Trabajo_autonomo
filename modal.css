@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.botones button {
+    padding: 15px 15px;
+    background-color: rgb(17, 195, 62);
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color:#fff;
+    cursor: pointer;
+}
+#close, #close1, #close2{
+    margin-right: 30px;
+}
+#enviar, #dar_baja, #justificar{
+    margin-left: 30px;
+}
+.modal-contenedor  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(79,79,79, 0.7);
+    z-index: 1;
+    visibility: hidden;
+}
+.titulo{
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+.datos{
+    margin-bottom: 30px;
+}
+.datos label{
+    display: block;
+}
+.datos input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    color: #000000;
+}
+.justificar{
+    padding-bottom: 10%;
+}
+.modal-contenido {
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}
